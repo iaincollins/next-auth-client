@@ -1,0 +1,20 @@
+{
+  "name": "next-auth-client",
+  "version": "1.1.2",
+  "description": "A client for the next-auth module",
+  "repository": "https://github.com/iaincollins/next-auth-client.git",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "webpack -d",
+    "prepublish": "webpack -d",
+    "start": "webpack -d --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
+}
